@@ -120,6 +120,39 @@ namespace DealsManagement.Controllers
             }
 
         }
+
+
+
+
+        [HttpPost]
+        [Route("/api/hotel")]
+
+        public async Task<IActionResult> CreateHotel([FromBody] HotelDto hotelDto)
+        {
+            try
+            {
+                var hotel = await dealService.CreateHotelAsync(hotelDto);
+                return Ok(hotel);
+            }
+            catch (Exception)
+            {
+
+                throw new Exception("Error in creating hotel");
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
     }
 
 }
+
+

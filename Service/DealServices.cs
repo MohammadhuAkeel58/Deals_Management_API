@@ -214,4 +214,43 @@ public class DealServices : IDealService
 
     }
 
+    public async Task<HotelViewModel> CreateHotelAsync(HotelDto hotelDto)
+    {
+        try
+        {
+            var existDeal = await context.Deals.FirstOrDefaultAsync(x => x.Id == hotelDto.DealId);
+            if (existDeal == null)
+            {
+                return null;
+            }
+            var hotel = new Hotel
+            {
+                Name = hotelDto.Name,
+                Location = hotelDto.Location,
+                Description = hotelDto.Description,
+                DealId = hotelDto.DealId
+            };
+
+            context.Hotels.AddAsync(hotel);
+            await context.SaveChangesAsync();
+
+            return new HotelViewModel
+            {
+                HotelId = hotel.HotelId,
+                Name = hotel.Name,
+                Location = hotel.Location,
+                Description = hotel.Description
+            };
+        }
+        catch (Exception)
+        {
+
+            throw new Exception("Error creating hotel");
+        }
+
+    }
+
+
+
+
 }
