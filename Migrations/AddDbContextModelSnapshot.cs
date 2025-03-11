@@ -46,7 +46,7 @@ namespace DealsManagement.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Deals");
+                    b.ToTable("Deals", (string)null);
                 });
 
             modelBuilder.Entity("DealsManagement.Models.Domain.Hotel", b =>
@@ -73,7 +73,7 @@ namespace DealsManagement.Migrations
 
                     b.HasIndex("DealId");
 
-                    b.ToTable("Hotels");
+                    b.ToTable("Hotels", (string)null);
                 });
 
             modelBuilder.Entity("DealsManagement.Models.Domain.Hotel", b =>

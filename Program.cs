@@ -3,7 +3,8 @@ using DealsManagement.Service;
 using Microsoft.EntityFrameworkCore;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using DealsManagement.Validators;
+// using DealsManagement.Validators;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,14 +15,15 @@ builder.Services.AddControllers();
 
 builder.Services.AddFluentValidationAutoValidation();
 
-builder.Services.AddValidatorsFromAssemblyContaining<DealValidator>();
-builder.Services.AddValidatorsFromAssemblyContaining<HotelValidator>();
+// builder.Services.AddValidatorsFromAssemblyContaining<DealValidator>();
+// builder.Services.AddValidatorsFromAssemblyContaining<HotelValidator>();
 
 
 
 builder.Services.AddDbContext<AddDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DealConnectionString")));
 builder.Services.AddScoped<IDealService, DealServices>();
+builder.Services.AddScoped<IImageService, ImageServices>();
 
 
 var app = builder.Build();
@@ -59,6 +61,11 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast");
 
 app.MapControllers();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images")),
+    RequestPath = "/Images"
+});
 
 app.Run();
 
