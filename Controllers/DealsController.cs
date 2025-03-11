@@ -1,6 +1,7 @@
 using System.Data;
 using DealsManagement.Data;
 using DealsManagement.DTO;
+using DealsManagement.Models.Domain;
 using DealsManagement.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,10 +15,13 @@ namespace DealsManagement.Controllers
     {
         private readonly IDealService dealService;
 
+
         public DealsController(IDealService dealService)
         {
 
             this.dealService = dealService;
+
+
         }
 
         [HttpGet]
@@ -61,7 +65,7 @@ namespace DealsManagement.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateDeal([FromBody] DealDto dealDto)
+        public async Task<IActionResult> CreateDeal([FromForm] DealDto dealDto)
         {
             try
             {
@@ -145,14 +149,15 @@ namespace DealsManagement.Controllers
         }
 
 
-
-
-
-
-
-
     }
 
+
+
+
+
+
 }
+
+
 
 

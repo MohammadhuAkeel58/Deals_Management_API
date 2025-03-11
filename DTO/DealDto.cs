@@ -9,7 +9,9 @@ public class DealDto
     public string Name { get; set; }
     public string Slug { get; set; }
     public string Title { get; set; }
-    public string? Image { get; set; }
+    public string? Image { get; set; } // for to store the path
+
+    public IFormFile? ImageFile { get; set; } // for file upload
 
     public ICollection<HotelDto>? Hotels { get; set; } = new List<HotelDto>();
 }

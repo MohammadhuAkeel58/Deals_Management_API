@@ -11,10 +11,12 @@ namespace DealsManagement.Service;
 public class DealServices : IDealService
 {
     private readonly AddDbContext context;
+    private readonly IImageService imageService;
 
-    public DealServices(AddDbContext context)
+    public DealServices(AddDbContext context, IImageService imageService)
     {
         this.context = context;
+        this.imageService = imageService;
     }
 
 
@@ -26,12 +28,13 @@ public class DealServices : IDealService
     {
         try
         {
+            string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
             var deal = new Deal
             {
                 Name = dealDto.Name,
                 Slug = dealDto.Slug,
                 Title = dealDto.Title,
-                Image = dealDto.Image,
+                Image = imagePath,
                 Hotels = dealDto.Hotels?.Select(x => new Hotel
                 {
                     Name = x.Name,
@@ -249,8 +252,6 @@ public class DealServices : IDealService
         }
 
     }
-
-
 
 
 }

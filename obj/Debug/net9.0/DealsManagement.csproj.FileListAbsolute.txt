@@ -253,3 +253,4 @@ C:\Users\USER\OneDrive\Desktop\DealsManagement\obj\Debug\net9.0\refint\DealsMana
 C:\Users\USER\OneDrive\Desktop\DealsManagement\obj\Debug\net9.0\DealsManagement.pdb
 C:\Users\USER\OneDrive\Desktop\DealsManagement\obj\Debug\net9.0\DealsManagement.genruntimeconfig.cache
 C:\Users\USER\OneDrive\Desktop\DealsManagement\obj\Debug\net9.0\ref\DealsManagement.dll
+C:\Users\USER\OneDrive\Desktop\DealsManagement\bin\Debug\net9.0\DealsManagement.staticwebassets.runtime.json

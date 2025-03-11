@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\096f7541-41d8-4d5f-b4a0-7f602cd00c18.jpg",
+      "PackagePath": "staticwebassets\\Images\\096f7541-41d8-4d5f-b4a0-7f602cd00c18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\125ae107-3a88-4836-9ff4-8cd62380046e.jpg",
+      "PackagePath": "staticwebassets\\Images\\125ae107-3a88-4836-9ff4-8cd62380046e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\494dbf31-31b1-4703-b0a6-4e9dee158a6b.jpg",
+      "PackagePath": "staticwebassets\\Images\\494dbf31-31b1-4703-b0a6-4e9dee158a6b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\57ad65b8-5987-4279-89c6-f806d76023b9.jpg",
+      "PackagePath": "staticwebassets\\Images\\57ad65b8-5987-4279-89c6-f806d76023b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\c4f7b000-5a94-4ab9-ac08-4e62ed38f96a.jpg",
+      "PackagePath": "staticwebassets\\Images\\c4f7b000-5a94-4ab9-ac08-4e62ed38f96a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\dchdf.jpg",
+      "PackagePath": "staticwebassets\\Images\\dchdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\hchgv.jpg",
+      "PackagePath": "staticwebassets\\Images\\hchgv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\hdfgfryfyrgyr.jpg",
+      "PackagePath": "staticwebassets\\Images\\hdfgfryfyrgyr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\package2.jpg",
+      "PackagePath": "staticwebassets\\Images\\package2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\string.jpg",
+      "PackagePath": "staticwebassets\\Images\\string.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\OneDrive\\Desktop\\DealsManagement\\wwwroot\\Images\\string.webp",
+      "PackagePath": "staticwebassets\\Images\\string.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DealsManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DealsManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DealsManagement.props",
+      "PackagePath": "build\\DealsManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DealsManagement.props",
+      "PackagePath": "buildMultiTargeting\\DealsManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DealsManagement.props",
+      "PackagePath": "buildTransitive\\DealsManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
