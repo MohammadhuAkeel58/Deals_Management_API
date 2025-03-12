@@ -12,6 +12,7 @@ public interface IDealService
     Task<DealViewModel> CreateDealAsync(DealDto dealDto);
     Task<HotelViewModel> CreateHotelAsync(HotelDto hotelDto);
     Task<DealViewModel> UpdateDealAsync(int id, DealDto dealDto);
+    Task<DealViewModel> UpdateImageAsync(int id, DealDto dealDto);
     Task<bool> DeleteDealAsync(int id);
 
 }

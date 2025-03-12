@@ -253,5 +253,48 @@ public class DealServices : IDealService
 
     }
 
+    public async Task<DealViewModel> UpdateImageAsync(int id, DealDto dealDto)
+    {
+        try
+        {
+            string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
+            var deal = await context.Deals.Include(d => d.Hotels).FirstOrDefaultAsync(x => x.Id == id);
+            if (deal == null) return null;
 
+            deal.Name = dealDto.Name;
+            deal.Slug = dealDto.Slug;
+            deal.Title = dealDto.Title;
+            deal.Image = imagePath;
+            deal.Hotels = dealDto.Hotels?.Select(x => new Hotel
+            {
+                Name = x.Name,
+                Location = x.Location,
+                Description = x.Description
+            }).ToList();
+
+
+            await context.SaveChangesAsync();
+
+            return new DealViewModel
+            {
+                Id = deal.Id,
+                Name = deal.Name,
+                Slug = deal.Slug,
+                Title = deal.Title,
+                Image = deal.Image,
+                Hotels = deal.Hotels.Select(x => new HotelViewModel
+                {
+                    Name = x.Name,
+                    Location = x.Location,
+                    Description = x.Description
+                }).ToList()
+            };
+        }
+        catch (Exception)
+        {
+
+            throw new Exception("Error updating deal");
+        }
+
+    }
 }
