@@ -258,7 +258,7 @@ public class DealServices : IDealService
         try
         {
             string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
-            var deal = await context.Deals.Include(d => d.Hotels).FirstOrDefaultAsync(x => x.Id == id);
+            var deal = await context.Deals.FirstOrDefaultAsync(x => x.Id == id);
             if (deal == null) return null;
 
             deal.Name = dealDto.Name;
@@ -282,12 +282,7 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
-                Hotels = deal.Hotels.Select(x => new HotelViewModel
-                {
-                    Name = x.Name,
-                    Location = x.Location,
-                    Description = x.Description
-                }).ToList()
+
             };
         }
         catch (Exception)
