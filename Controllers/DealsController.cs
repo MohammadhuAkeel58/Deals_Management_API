@@ -148,6 +148,27 @@ namespace DealsManagement.Controllers
 
         }
 
+        [HttpPut]
+        [Route("update/{id}")]
+        public async Task<IActionResult> UpdateDealWithImage([FromRoute] int id, [FromForm] DealDto dealDto)
+        {
+            try
+            {
+                var updateDeal = await dealService.UpdateImageAsync(id, dealDto);
+                if (updateDeal == null)
+                {
+                    return NotFound();
+                }
+                return Ok(updateDeal);
+            }
+            catch (Exception)
+            {
+
+                throw new Exception("Error in updating deal");
+            }
+
+        }
+
 
     }
 
