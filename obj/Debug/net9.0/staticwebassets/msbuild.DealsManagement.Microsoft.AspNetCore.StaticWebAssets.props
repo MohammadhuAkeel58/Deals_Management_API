@@ -36,5 +36,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Images/ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fymkkxs4wx</Fingerprint>
+      <Integrity>Nymxt5Ry+khwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Images/ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fymkkxs4wx</Fingerprint>
+      <Integrity>Nymxt5Ry+khwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>
