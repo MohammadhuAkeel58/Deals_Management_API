@@ -265,13 +265,6 @@ public class DealServices : IDealService
             deal.Slug = dealDto.Slug;
             deal.Title = dealDto.Title;
             deal.Image = imagePath;
-            deal.Hotels = dealDto.Hotels?.Select(x => new Hotel
-            {
-                Name = x.Name,
-                Location = x.Location,
-                Description = x.Description
-            }).ToList();
-
 
             await context.SaveChangesAsync();
 
