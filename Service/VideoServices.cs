@@ -37,7 +37,7 @@ public class VideoServices : IVideoService
             Directory.CreateDirectory(uploadsFolder);
 
             var originalFileName = Path.GetFileNameWithoutExtension(videoFile.FileName);
-            string uniqueFileName = $"{originalFileName}={Guid.NewGuid()}{extension}";
+            string uniqueFileName = $"{originalFileName}/{Guid.NewGuid()}{extension}";
             string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
             using (var fileStream = new FileStream(filePath, FileMode.Create))

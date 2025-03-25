@@ -36,7 +36,7 @@ public class ImageServices : IImageService
 
 
 
-        string uniqueFileName = $"{originalFileName}={Guid.NewGuid()}{extension}";
+        string uniqueFileName = $"{originalFileName}/{Guid.NewGuid()}{extension}";
         string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
 

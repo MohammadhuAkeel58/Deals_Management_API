@@ -72,6 +72,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ILOVEBISLIG-hikers-itch-1024x695=ddcaafa8-04fc-4540-879e-cc14fefe0edb.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Images/ILOVEBISLIG-hikers-itch-1024x695=ddcaafa8-04fc-4540-879e-cc14fefe0edb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nxx23purf1</Fingerprint>
+      <Integrity>tWAfE8j2Qi3hFdT5wxa+Qk3pe27xqp4wvtaZQ/zT+sY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ILOVEBISLIG-hikers-itch-1024x695=ddcaafa8-04fc-4540-879e-cc14fefe0edb.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\tinuan-falls1=56a6d93d-4311-4dfd-8793-7374fab3623a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Images/tinuan-falls1=56a6d93d-4311-4dfd-8793-7374fab3623a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n78fb0bxh5</Fingerprint>
+      <Integrity>U7LVAd4+v+4UW32K7yeMLoHxXIQynve6Hgbahz+DijI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\tinuan-falls1=56a6d93d-4311-4dfd-8793-7374fab3623a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>DealsManagement</SourceId>
@@ -162,6 +198,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=e9889233-2457-4749-aef3-16c619a8ac0e.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Videos/Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=e9889233-2457-4749-aef3-16c619a8ac0e.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v3y8j7jln0</Fingerprint>
+      <Integrity>VcJ3vgcB4UONoYKCg8/Qmk9ETt9YkDcVXqams7o1sCk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=e9889233-2457-4749-aef3-16c619a8ac0e.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>DealsManagement</SourceId>
@@ -179,6 +233,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=86fe8fec-7780-444e-89e8-db36fb149104.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DealsManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DealsManagement</BasePath>
+      <RelativePath>Videos/LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=86fe8fec-7780-444e-89e8-db36fb149104.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>foo2xepz70</Fingerprint>
+      <Integrity>kQ3JChr4B//jdxGdQtbv1pVhDnOzkLdHqLajWtKMnZc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=86fe8fec-7780-444e-89e8-db36fb149104.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.mp4'))">
       <SourceType>Package</SourceType>
