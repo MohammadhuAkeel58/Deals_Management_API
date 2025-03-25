@@ -150,11 +150,11 @@ namespace DealsManagement.Controllers
 
         [HttpPut]
         [Route("update/{id}")]
-        public async Task<IActionResult> UpdateDealWithImage([FromRoute] int id, [FromForm] DealDto dealDto)
+        public async Task<IActionResult> UpdateImage([FromRoute] int id, [FromForm] ImageDto imageDto)
         {
             try
             {
-                var updateDeal = await dealService.UpdateImageAsync(id, dealDto);
+                var updateDeal = await dealService.UpdateImageAsync(id, imageDto);
                 if (updateDeal == null)
                 {
                     return NotFound();
@@ -168,6 +168,28 @@ namespace DealsManagement.Controllers
             }
 
         }
+
+        [HttpPut]
+        [Route("video/{id}")]
+        public async Task<IActionResult> UpdateVideo([FromRoute] int id, [FromForm] VideoDto videoDto)
+        {
+            try
+            {
+                var updateDeal = await dealService.UpdateVideoAsync(id, videoDto);
+                if (updateDeal == null)
+                {
+                    return NotFound();
+                }
+                return Ok(updateDeal);
+            }
+            catch (Exception)
+            {
+
+                throw new Exception("Error in updating deal");
+            }
+
+        }
+
 
 
     }

@@ -9,6 +9,8 @@ namespace DealsManagement.Models.Domain
         public string Title { get; set; }
         public string? Image { get; set; }
 
+        public VideoInfo? Video { get; set; }
+
         public ICollection<Hotel>? Hotels { get; set; } = new List<Hotel>();
     }
 

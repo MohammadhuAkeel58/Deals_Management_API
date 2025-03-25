@@ -1,52 +1,148 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga Island 1=e2c1e589-4dba-4a09-bfb4-1913fce2d493.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga Island 1=e2c1e589-4dba-4a09-bfb4-1913fce2d493.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/bislig-baywalk=59d5ad4e-404f-4321-8a47-0441c5fdb71f.knqa967kdb.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bislig-baywalk=59d5ad4e-404f-4321-8a47-0441c5fdb71f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"knqa967kdb"},{"Name":"integrity","Value":"sha256-cJZt\u002BN9wDopy9beJMCA0Kw1BM5NabkNx5ptOqwIEOpI="},{"Name":"label","Value":"_content/DealsManagement/Images/bislig-baywalk=59d5ad4e-404f-4321-8a47-0441c5fdb71f.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"452705"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cJZt\u002BN9wDopy9beJMCA0Kw1BM5NabkNx5ptOqwIEOpI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/bislig-baywalk=59d5ad4e-404f-4321-8a47-0441c5fdb71f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\bislig-baywalk=59d5ad4e-404f-4321-8a47-0441c5fdb71f.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cJZt\u002BN9wDopy9beJMCA0Kw1BM5NabkNx5ptOqwIEOpI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"452705"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cJZt\u002BN9wDopy9beJMCA0Kw1BM5NabkNx5ptOqwIEOpI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga Island 1=ed0f0e81-0fba-4e6a-ab97-445524094849.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga Island 1=ed0f0e81-0fba-4e6a-ab97-445524094849.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"792187"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 02:28:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"792187"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 06:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga Island 1=e2c1e589-4dba-4a09-bfb4-1913fce2d493.kavwcejlx3.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga Island 1=e2c1e589-4dba-4a09-bfb4-1913fce2d493.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga Island 1=ed0f0e81-0fba-4e6a-ab97-445524094849.kavwcejlx3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga Island 1=ed0f0e81-0fba-4e6a-ab97-445524094849.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kavwcejlx3"},{"Name":"integrity","Value":"sha256-lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk="},{"Name":"label","Value":"_content/DealsManagement/Images/Busuanga Island 1=e2c1e589-4dba-4a09-bfb4-1913fce2d493.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"792187"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 02:28:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kavwcejlx3"},{"Name":"integrity","Value":"sha256-lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk="},{"Name":"label","Value":"_content/DealsManagement/Images/Busuanga Island 1=ed0f0e81-0fba-4e6a-ab97-445524094849.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"792187"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lKVpJWbG\u002BkbuNaqWzVCOnRqrH\u002Bf8deGpc0fwjuKn4Nk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 06:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.9i3govcz7m.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga-Island-Philippines-Aerial-Tour-Project-LUPAD-JPG=a1655807-6929-469f-a817-a3943ee8cf5b.gsinbeahiy.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga-Island-Philippines-Aerial-Tour-Project-LUPAD-JPG=a1655807-6929-469f-a817-a3943ee8cf5b.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9i3govcz7m"},{"Name":"integrity","Value":"sha256-Pxadf8ESgmiEbMQEMErvFTv4kY\u002Bg30SOohzKAp9WIGk="},{"Name":"label","Value":"_content/DealsManagement/Images/Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"579708"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Pxadf8ESgmiEbMQEMErvFTv4kY\u002Bg30SOohzKAp9WIGk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 02:31:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gsinbeahiy"},{"Name":"integrity","Value":"sha256-IH49OktppayvHxmuWngBa8zDXVpIXx5Gd4ChntvnJJs="},{"Name":"label","Value":"_content/DealsManagement/Images/Busuanga-Island-Philippines-Aerial-Tour-Project-LUPAD-JPG=a1655807-6929-469f-a817-a3943ee8cf5b.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"426496"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IH49OktppayvHxmuWngBa8zDXVpIXx5Gd4ChntvnJJs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:54:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga-2=b0e621b1-0a7f-434a-bc17-3bd92ebb5318.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/Busuanga-Island-Philippines-Aerial-Tour-Project-LUPAD-JPG=a1655807-6929-469f-a817-a3943ee8cf5b.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Busuanga-Island-Philippines-Aerial-Tour-Project-LUPAD-JPG=a1655807-6929-469f-a817-a3943ee8cf5b.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Pxadf8ESgmiEbMQEMErvFTv4kY\u002Bg30SOohzKAp9WIGk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"579708"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Pxadf8ESgmiEbMQEMErvFTv4kY\u002Bg30SOohzKAp9WIGk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 02:31:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IH49OktppayvHxmuWngBa8zDXVpIXx5Gd4ChntvnJJs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"426496"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IH49OktppayvHxmuWngBa8zDXVpIXx5Gd4ChntvnJJs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:54:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.fymkkxs4wx.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fymkkxs4wx"},{"Name":"integrity","Value":"sha256-Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0="},{"Name":"label","Value":"_content/DealsManagement/Images/ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"187732"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 04:17:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tWAfE8j2Qi3hFdT5wxa\u002BQk3pe27xqp4wvtaZQ/zT\u002BsY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"145095"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tWAfE8j2Qi3hFdT5wxa\u002BQk3pe27xqp4wvtaZQ/zT\u002BsY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:06:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=92e019c0-df27-46ce-8942-8158bc98729a.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.nxx23purf1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"187732"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 04:17:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nxx23purf1"},{"Name":"integrity","Value":"sha256-tWAfE8j2Qi3hFdT5wxa\u002BQk3pe27xqp4wvtaZQ/zT\u002BsY="},{"Name":"label","Value":"_content/DealsManagement/Images/ILOVEBISLIG-hikers-itch-1024x695=142023b8-cd20-453e-90eb-7579e12fbfb1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145095"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tWAfE8j2Qi3hFdT5wxa\u002BQk3pe27xqp4wvtaZQ/zT\u002BsY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:06:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.fymkkxs4wx.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fymkkxs4wx"},{"Name":"integrity","Value":"sha256-Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0="},{"Name":"label","Value":"_content/DealsManagement/Images/ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"187732"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 04:12:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:36:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DealsManagement/Images/ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ccimage-shutterstock_491770087=f7e284be-ccaf-482b-ac9f-bc7087c4a678.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.yrw3jpx1p6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.mp4'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"187732"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nymxt5Ry\u002BkhwRvdHA8aisM2HKhCilpOUTPTy4EenRU0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 04:12:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrw3jpx1p6"},{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="},{"Name":"label","Value":"_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3c97d273-1a30-4695-930c-f3e51df43d13.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3ff496db-6a81-41d1-8b25-ae1f71b8c1a0.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3ff496db-6a81-41d1-8b25-ae1f71b8c1a0.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:50:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3ff496db-6a81-41d1-8b25-ae1f71b8c1a0.yrw3jpx1p6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3ff496db-6a81-41d1-8b25-ae1f71b8c1a0.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrw3jpx1p6"},{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="},{"Name":"label","Value":"_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=3ff496db-6a81-41d1-8b25-ae1f71b8c1a0.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:50:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=5ba4c179-ba14-45cc-853f-ce9e3111366d.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=5ba4c179-ba14-45cc-853f-ce9e3111366d.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:54:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=5ba4c179-ba14-45cc-853f-ce9e3111366d.yrw3jpx1p6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=5ba4c179-ba14-45cc-853f-ce9e3111366d.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrw3jpx1p6"},{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="},{"Name":"label","Value":"_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=5ba4c179-ba14-45cc-853f-ce9e3111366d.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 17:54:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=d312b0a6-e307-4f76-96c5-4caeb4422b3d.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=d312b0a6-e307-4f76-96c5-4caeb4422b3d.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 12:13:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=d312b0a6-e307-4f76-96c5-4caeb4422b3d.yrw3jpx1p6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=d312b0a6-e307-4f76-96c5-4caeb4422b3d.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrw3jpx1p6"},{"Name":"integrity","Value":"sha256-UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw="},{"Name":"label","Value":"_content/DealsManagement/Videos/30 Second Explainer Videos - Explainer Video Cafe (720p, h264)=d312b0a6-e307-4f76-96c5-4caeb4422b3d.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2619755"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022UvCL5rxt2ivgZ20INqXlRpOPnOflgJ9XtuU3nu7VUIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 12:13:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VcJ3vgcB4UONoYKCg8/Qmk9ETt9YkDcVXqams7o1sCk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"198045529"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022VcJ3vgcB4UONoYKCg8/Qmk9ETt9YkDcVXqams7o1sCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:37:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.v3y8j7jln0.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v3y8j7jln0"},{"Name":"integrity","Value":"sha256-VcJ3vgcB4UONoYKCg8/Qmk9ETt9YkDcVXqams7o1sCk="},{"Name":"label","Value":"_content/DealsManagement/Videos/Dunki Drop 5- O Maahi _ Shah Rukh Khan _ Taapsee Pannu _ Pritam _ Arijit Sin_4K=0b6708df-b2fd-43e3-8abf-53bc0c0fc9bf.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"198045529"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022VcJ3vgcB4UONoYKCg8/Qmk9ETt9YkDcVXqams7o1sCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 22:37:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b4yRjtbHEv97xFPHG2gkEWWCRdnWGrFEKtu8HNc4IJo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"82194640"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022b4yRjtbHEv97xFPHG2gkEWWCRdnWGrFEKtu8HNc4IJo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:07:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.rd02e40732.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rd02e40732"},{"Name":"integrity","Value":"sha256-b4yRjtbHEv97xFPHG2gkEWWCRdnWGrFEKtu8HNc4IJo="},{"Name":"label","Value":"_content/DealsManagement/Videos/Heeriye (Official Video) Jasleen Royal ft Arijit Singh_ Dulquer Salmaan_ Adi_4K=e90b407f-80f0-4125-a3bf-40ee624a876c.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"82194640"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022b4yRjtbHEv97xFPHG2gkEWWCRdnWGrFEKtu8HNc4IJo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 14:07:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.foo2xepz70.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"foo2xepz70"},{"Name":"integrity","Value":"sha256-kQ3JChr4B//jdxGdQtbv1pVhDnOzkLdHqLajWtKMnZc="},{"Name":"label","Value":"_content/DealsManagement/Videos/LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"179205937"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022kQ3JChr4B//jdxGdQtbv1pVhDnOzkLdHqLajWtKMnZc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 04:35:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\LEO - Anbenum Video _ Thalapathy Vijay _ Lokesh Kanagaraj _ Anirudh Ravichan_4K=96cc3d4b-b06a-43a6-98ab-546e29f7a935.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kQ3JChr4B//jdxGdQtbv1pVhDnOzkLdHqLajWtKMnZc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"179205937"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022kQ3JChr4B//jdxGdQtbv1pVhDnOzkLdHqLajWtKMnZc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 04:35:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/y2mate.com - Indian 2  Neelorpam Lyric Video  Kamal Haasan  Shankar  Anirudh  Subaskaran  Lyca_1440p=9b1d8988-3b64-419e-b19f-62c91523d9e6.kh9quijk5m.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\y2mate.com - Indian 2  Neelorpam Lyric Video  Kamal Haasan  Shankar  Anirudh  Subaskaran  Lyca_1440p=9b1d8988-3b64-419e-b19f-62c91523d9e6.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kh9quijk5m"},{"Name":"integrity","Value":"sha256-iEg7m42LyWhgjbTjefsHPIQu0BelQFi0nKtk\u002BqKFszc="},{"Name":"label","Value":"_content/DealsManagement/Videos/y2mate.com - Indian 2  Neelorpam Lyric Video  Kamal Haasan  Shankar  Anirudh  Subaskaran  Lyca_1440p=9b1d8988-3b64-419e-b19f-62c91523d9e6.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112356934"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022iEg7m42LyWhgjbTjefsHPIQu0BelQFi0nKtk\u002BqKFszc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 06:55:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DealsManagement/Videos/y2mate.com - Indian 2  Neelorpam Lyric Video  Kamal Haasan  Shankar  Anirudh  Subaskaran  Lyca_1440p=9b1d8988-3b64-419e-b19f-62c91523d9e6.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Videos\y2mate.com - Indian 2  Neelorpam Lyric Video  Kamal Haasan  Shankar  Anirudh  Subaskaran  Lyca_1440p=9b1d8988-3b64-419e-b19f-62c91523d9e6.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iEg7m42LyWhgjbTjefsHPIQu0BelQFi0nKtk\u002BqKFszc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112356934"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022iEg7m42LyWhgjbTjefsHPIQu0BelQFi0nKtk\u002BqKFszc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 06:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

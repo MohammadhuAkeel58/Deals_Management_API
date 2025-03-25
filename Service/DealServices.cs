@@ -12,11 +12,13 @@ public class DealServices : IDealService
 {
     private readonly AddDbContext context;
     private readonly IImageService imageService;
+    private readonly IVideoService videoService;
 
-    public DealServices(AddDbContext context, IImageService imageService)
+    public DealServices(AddDbContext context, IImageService imageService, IVideoService videoService)
     {
         this.context = context;
         this.imageService = imageService;
+        this.videoService = videoService;
     }
 
 
@@ -29,12 +31,19 @@ public class DealServices : IDealService
         try
         {
             string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
+
+            VideoInfo? videoInfo = await videoService.SaveVideoAsync(dealDto.VideoFile, "Videos", dealDto.VideoAltText);
+
             var deal = new Deal
+
             {
                 Name = dealDto.Name,
                 Slug = dealDto.Slug,
                 Title = dealDto.Title,
                 Image = imagePath,
+                Video = videoInfo,
+
+
                 Hotels = dealDto.Hotels?.Select(x => new Hotel
                 {
                     Name = x.Name,
@@ -53,6 +62,10 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
+                Video = deal.Video?.Path,
+                VideoAltText = deal.Video?.AltText,
+
+
                 Hotels = deal.Hotels.Select(x => new HotelViewModel
                 {
                     Name = x.Name,
@@ -72,11 +85,6 @@ public class DealServices : IDealService
     }
 
 
-
-
-
-
-
     public async Task<List<DealViewModel>> GetAllDealsAsync()
     {
         try
@@ -89,6 +97,8 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
+                Video = deal.Video?.Path,
+                VideoAltText = deal.Video?.AltText,
                 Hotels = deal.Hotels?.Select(h => new HotelViewModel
                 {
                     HotelId = h.HotelId,
@@ -123,6 +133,11 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
+                Video = deal.Video?.Path,
+                VideoAltText = deal.Video?.AltText
+
+
+                ,
                 Hotels = deal.Hotels?.Select(h => new HotelViewModel
                 {
                     HotelId = h.HotelId,
@@ -159,7 +174,12 @@ public class DealServices : IDealService
             deal.Name = dealDto.Name;
             deal.Slug = dealDto.Slug;
             deal.Title = dealDto.Title;
-            deal.Image = dealDto.Image;
+            if (deal.Video != null)
+            {
+                deal.Video.AltText = dealDto.VideoAltText;
+            }
+
+
             deal.Hotels = dealDto.Hotels?.Select(x => new Hotel
             {
                 Name = x.Name,
@@ -177,6 +197,9 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
+                Video = deal.Video?.Path,
+                VideoAltText = deal.Video?.AltText,
+
                 Hotels = deal.Hotels.Select(x => new HotelViewModel
                 {
                     Name = x.Name,
@@ -253,17 +276,14 @@ public class DealServices : IDealService
 
     }
 
-    public async Task<DealViewModel> UpdateImageAsync(int id, DealDto dealDto)
+    public async Task<DealViewModel> UpdateImageAsync(int id, ImageDto imageDto)
     {
         try
         {
-            string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
+            string? imagePath = await imageService.SaveImageAsync(imageDto.ImageFile, "Images");
             var deal = await context.Deals.FirstOrDefaultAsync(x => x.Id == id);
             if (deal == null) return null;
 
-            deal.Name = dealDto.Name;
-            deal.Slug = dealDto.Slug;
-            deal.Title = dealDto.Title;
             deal.Image = imagePath;
 
             await context.SaveChangesAsync();
@@ -275,6 +295,42 @@ public class DealServices : IDealService
                 Slug = deal.Slug,
                 Title = deal.Title,
                 Image = deal.Image,
+
+            };
+        }
+        catch (Exception)
+        {
+
+            throw new Exception("Error updating deal");
+        }
+
+    }
+
+
+
+
+
+
+    public async Task<DealViewModel> UpdateVideoAsync(int id, VideoDto videoDto)
+    {
+        try
+        {
+            VideoInfo? videoInfo = await videoService.SaveVideoAsync(videoDto.VideoFile, "Videos", videoDto.AltText);
+            var deal = await context.Deals.FirstOrDefaultAsync(x => x.Id == id);
+            if (deal == null) return null;
+
+            deal.Video = videoInfo;
+            await context.SaveChangesAsync();
+
+            return new DealViewModel
+            {
+                Id = deal.Id,
+                Name = deal.Name,
+                Slug = deal.Slug,
+                Title = deal.Title,
+                Video = deal.Video?.Path,
+                VideoAltText = deal.Video?.AltText,
+
 
             };
         }
