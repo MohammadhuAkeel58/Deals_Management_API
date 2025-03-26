@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DealsManagement.Migrations
 {
     [DbContext(typeof(AddDbContext))]
-    [Migration("20250324161808_AddVideoAsObject")]
+    [Migration("20250325091724_AddVideoAsObject")]
     partial class AddVideoAsObject
     {
         /// <inheritdoc />
@@ -64,9 +64,6 @@ namespace DealsManagement.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Description")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Image")
                         .HasColumnType("text");
 
                     b.Property<string>("Location")

@@ -63,9 +63,6 @@ namespace DealsManagement.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
-                    b.Property<string>("Image")
-                        .HasColumnType("text");
-
                     b.Property<string>("Location")
                         .HasColumnType("text");
 

@@ -11,12 +11,6 @@ namespace DealsManagement.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "Image",
-                table: "Hotels",
-                type: "text",
-                nullable: true);
-
-            migrationBuilder.AddColumn<string>(
                 name: "Video",
                 table: "Deals",
                 type: "jsonb",
@@ -26,10 +20,6 @@ namespace DealsManagement.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Image",
-                table: "Hotels");
-
             migrationBuilder.DropColumn(
                 name: "Video",
                 table: "Deals");

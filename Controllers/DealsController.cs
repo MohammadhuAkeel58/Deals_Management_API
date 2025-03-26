@@ -72,10 +72,9 @@ namespace DealsManagement.Controllers
                 var createDeal = await dealService.CreateDealAsync(dealDto);
                 return Ok(createDeal);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw new Exception("Error in creating deal");
+                return BadRequest(ex.Message);
             }
 
         }

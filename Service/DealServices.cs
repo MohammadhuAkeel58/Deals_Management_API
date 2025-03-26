@@ -30,6 +30,7 @@ public class DealServices : IDealService
     {
         try
         {
+
             string? imagePath = await imageService.SaveImageAsync(dealDto.ImageFile, "Images");
 
             VideoInfo? videoInfo = await videoService.SaveVideoAsync(dealDto.VideoFile, "Videos", dealDto.VideoAltText);
